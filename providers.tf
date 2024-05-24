@@ -1,8 +1,5 @@
 terraform {
   backend "s3" {
-    bucket         = "tfstatebucketsl"
-    key            = "new_application.tfstate"
-    region         = "us-west-2"
   }
 }
 
